@@ -1,0 +1,69 @@
+h1, h2, h3, h4, h5, .title {
+  font: {
+    family: 'Arvo', serif;
+    weight: bold;
+  }
+}
+
+a{
+  text-decoration: underline;
+  @at-root &.link {
+    &-clear {
+      text-decoration: none;
+      color: black;
+      &:hover {
+        color: orangered;
+        transition: color .5s ease-out;
+      }
+    }
+  }
+}
+
+.bold, b, strong {
+  font-weight: bold;
+}
+
+small, .small {
+  color: lightgray;
+  font: {
+    size: 13px;
+    weight: lighter;
+    style: italic;
+  }
+}
+
+.white {
+  color: white;
+}
+
+.white-a {
+  color: rgba(250, 250, 250, .6);
+}
+
+.black {
+  color: black;
+}
+
+.f {
+  &-large {
+    font-size: 2.5rem;
+  }
+  &-medium {
+    font-size: 1rem;
+  }
+  &-small {
+    font-size: 0.7rem;
+  }
+}
+
+.line {
+  &-hight {
+    line-height: 1.8;
+  }
+  &-middle {
+    line-height: 1.2;
+  }
+  &-small {
+    line-height: 1;
+  }
+}

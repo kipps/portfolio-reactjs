@@ -19,9 +19,9 @@
   "author": "Roman Shevchenko",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kipps/reactjs-epam/issues"
+    "url": "https://github.com/kipps/portfolio-reactjs/issues"
   },
-  "homepage": "https://github.com/kipps/reactjs-epam#readme",
+  "homepage": "https://github.com/kipps/portfolio-reactjs#readme",
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "^4.3.1",
